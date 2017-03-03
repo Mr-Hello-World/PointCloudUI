@@ -1,0 +1,29 @@
+<RCC>
+  <qresource prefix="/">
+    <file>images/shishi2.png</file>
+    <file>images/open.ico</file>
+    <file>images/save.ico</file>
+    <file>images/cloudmulticolor.png</file>
+    <file>images/cloudproject.png</file>
+    <file>images/open.png</file>
+    <file>images/save.png</file>
+    <file>images/clouduniquecolor.png</file>
+    <file>images/folder.png</file>
+    <file>images/shishi.png</file>
+    <file>images/ccViewXneg.png</file>
+    <file>images/ccViewXpos.png</file>
+    <file>images/ccViewYneg.png</file>
+    <file>images/ccViewYpos.png</file>
+    <file>images/ccViewZneg.png</file>
+    <file>images/save.png</file>
+    <file>images/open.png</file>
+    <file>images/ccViewZpos.png</file>
+    <file>images/txt.png</file>
+    <file>images/browser.png</file>
+    <file>images/cube.png</file>
+    <file>images/gnome_text_x_generic.png</file>
+    <file>images/icon.png</file>
+    <file>images/radius.png</file>
+    <file>images/statistics.png</file>
+  </qresource>
+</RCC>

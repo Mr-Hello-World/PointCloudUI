@@ -1,0 +1,173 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_cloudthread.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_cloudthread.cpp, GeneratedFiles\Release\moc_cloudthread.cpp.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_mainwindow.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_mainwindow.cpp, GeneratedFiles\Release\moc_mainwindow.cpp.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of label.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are groundFilter\label.cpp, PolesExtract\label.cpp, roadshoulder\label.cpp, SurfaceGrowing\label.cpp.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of voxel.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are PolesExtract\voxel.cpp, Voxel\voxel.cpp.
+  cass.cpp
+  dl_dxf.cpp
+  dl_writer_ascii.cpp
+  main_cass.cpp
+e:\visualstudio2013project\pointcloudui2.0\pointcloudui2.0\cass\dl_codes.h(42): warning C4005: “strcasecmp”: 宏重定义 (CASS\dl_writer_ascii.cpp)
+          e:\visualstudio2013project\pointcloudui2.0\pointcloudui2.0\cass\dl_writer.h(37) : 参见“strcasecmp”的前一个定义
+  test_creationclass.cpp
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/interactor_style.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (CASS\main_cass.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/interactor_style.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (CASS\test_creationclass.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/interactor_style.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (CASS\dl_dxf.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/interactor_style.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (CASS\cass.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/pcl_visualizer.h(1621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (CASS\main_cass.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/pcl_visualizer.h(1621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (CASS\test_creationclass.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/pcl_visualizer.h(1621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (CASS\cass.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/pcl_visualizer.h(1621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (CASS\dl_dxf.cpp)
+e:\visualstudio2013project\pointcloudui2.0\pointcloudui2.0\cass\dl_writer.h(37): warning C4005: “strcasecmp”: 宏重定义 (CASS\dl_dxf.cpp)
+          e:\visualstudio2013project\pointcloudui2.0\pointcloudui2.0\cass\dl_codes.h(42) : 参见“strcasecmp”的前一个定义
+e:\visualstudio2013project\pointcloudui2.0\pointcloudui2.0\cass\dl_writer.h(37): warning C4005: “strcasecmp”: 宏重定义 (CASS\main_cass.cpp)
+          e:\visualstudio2013project\pointcloudui2.0\pointcloudui2.0\cass\dl_codes.h(42) : 参见“strcasecmp”的前一个定义
+e:\visualstudio2013project\pointcloudui2.0\pointcloudui2.0\cass\dl_writer.h(37): warning C4005: “strcasecmp”: 宏重定义 (CASS\cass.cpp)
+          e:\visualstudio2013project\pointcloudui2.0\pointcloudui2.0\cass\dl_codes.h(42) : 参见“strcasecmp”的前一个定义
+  cloudmanage.cpp
+  clusterextract.cpp
+  contour.cpp
+  coordinate.cpp
+  main_coordinatePY.cpp
+  eigenmatrix.cpp
+  buildfootprint.cpp
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/interactor_style.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (CloudData\cloudmanage.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/interactor_style.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (ExtractBuilding\buildfootprint.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/interactor_style.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (Contour\contour.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/pcl_visualizer.h(1621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (Contour\contour.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/pcl_visualizer.h(1621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (ExtractBuilding\buildfootprint.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/pcl_visualizer.h(1621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (CloudData\cloudmanage.cpp)
+Contour\contour.cpp(10): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/interactor_style.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (clusterextract.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/pcl_visualizer.h(1621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (clusterextract.cpp)
+  main_extactbuilding.cpp
+  moc_cloudthread.cpp
+  moc_mainwindow.cpp
+  groundFilter.cpp
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/interactor_style.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (ExtractBuilding\main_extactbuilding.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/pcl_visualizer.h(1621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (ExtractBuilding\main_extactbuilding.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/interactor_style.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (GeneratedFiles\Release\moc_cloudthread.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/pcl_visualizer.h(1621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (GeneratedFiles\Release\moc_cloudthread.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/interactor_style.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (GeneratedFiles\Release\moc_mainwindow.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/pcl_visualizer.h(1621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (GeneratedFiles\Release\moc_mainwindow.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/interactor_style.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (groundFilter\groundFilter.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/pcl_visualizer.h(1621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (groundFilter\groundFilter.cpp)
+  label.cpp
+  main_filter.cpp
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/interactor_style.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (groundFilter\label.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/pcl_visualizer.h(1621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (groundFilter\label.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/interactor_style.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (groundFilter\main_filter.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/pcl_visualizer.h(1621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (groundFilter\main_filter.cpp)
+  3dKDtree.cpp
+  kdtree.cpp
+  libLAS180.cpp
+  kdtreelzf.cpp
+  Matrix.cpp
+  Model.cpp
+  PlaneFitting.cpp
+  Planelzf.cpp
+  PointIO.cpp
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/interactor_style.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (libLAS180\libLAS180.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/interactor_style.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (KDTree\kdtree.cpp)
+  Pointlzf.cpp
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/pcl_visualizer.h(1621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (libLAS180\libLAS180.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/pcl_visualizer.h(1621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (KDTree\kdtree.cpp)
+  Segmentation.cpp
+  main.cpp
+  mainwindow.cpp
+  pca.cpp
+  algorithm.cpp
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/interactor_style.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (PCA\pca.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/pcl_visualizer.h(1621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (PCA\pca.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/interactor_style.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (main.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/pcl_visualizer.h(1621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (main.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/interactor_style.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (mainwindow.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/pcl_visualizer.h(1621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (mainwindow.cpp)
+e:\visualstudio2013project\pointcloudui2.0\pointcloudui2.0\cass\dl_writer.h(37): warning C4005: “strcasecmp”: 宏重定义 (mainwindow.cpp)
+          e:\visualstudio2013project\pointcloudui2.0\pointcloudui2.0\cass\dl_codes.h(42) : 参见“strcasecmp”的前一个定义
+  clusters.cpp
+  pclfilter.cpp
+  plane.cpp
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/interactor_style.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (PlaneClass\plane.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/pcl_visualizer.h(1621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (PlaneClass\plane.cpp)
+  point.cpp
+  simple.cpp
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/interactor_style.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (PointClass\point.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/pcl_visualizer.h(1621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (PointClass\point.cpp)
+  label.cpp
+  main_poles.cpp
+  polesextract.cpp
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/interactor_style.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (PointCloudSimple\simple.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/pcl_visualizer.h(1621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (PointCloudSimple\simple.cpp)
+  voxel.cpp
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/interactor_style.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (PolesExtract\polesextract.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/interactor_style.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (PolesExtract\main_poles.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/interactor_style.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (PolesExtract\label.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/pcl_visualizer.h(1621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (PolesExtract\polesextract.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/pcl_visualizer.h(1621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (PolesExtract\main_poles.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/pcl_visualizer.h(1621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (PolesExtract\label.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/interactor_style.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (PolesExtract\voxel.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/pcl_visualizer.h(1621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (PolesExtract\voxel.cpp)
+  ransacplane.cpp
+  label.cpp
+  line.cpp
+  main_shoulderroad.cpp
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/interactor_style.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (RansacClass\ransacplane.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/pcl_visualizer.h(1621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (RansacClass\ransacplane.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/interactor_style.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (roadshoulder\label.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/pcl_visualizer.h(1621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (roadshoulder\label.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/interactor_style.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (roadshoulder\main_shoulderroad.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/pcl_visualizer.h(1621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (roadshoulder\main_shoulderroad.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/interactor_style.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (roadshoulder\line.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/pcl_visualizer.h(1621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (roadshoulder\line.cpp)
+  roadshoulder.cpp
+  label.cpp
+  surfacegrowing.cpp
+  cloudthread.cpp
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/interactor_style.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (roadshoulder\roadshoulder.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/pcl_visualizer.h(1621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (roadshoulder\roadshoulder.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/interactor_style.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (SurfaceGrowing\label.cpp)
+D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(1293): warning C4005: “M_E”: 宏重定义 (ThreadClass\cloudthread.cpp)
+          c:\qt\qt5.5.1\5.5\msvc2013_64\include\qtcore\qmath.h(136) : 参见“M_E”的前一个定义
+D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(1294): warning C4005: “M_LOG2E”: 宏重定义 (ThreadClass\cloudthread.cpp)
+          c:\qt\qt5.5.1\5.5\msvc2013_64\include\qtcore\qmath.h(140) : 参见“M_LOG2E”的前一个定义
+D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(1295): warning C4005: “M_LOG10E”: 宏重定义 (ThreadClass\cloudthread.cpp)
+          c:\qt\qt5.5.1\5.5\msvc2013_64\include\qtcore\qmath.h(144) : 参见“M_LOG10E”的前一个定义
+D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(1296): warning C4005: “M_LN2”: 宏重定义 (ThreadClass\cloudthread.cpp)
+          c:\qt\qt5.5.1\5.5\msvc2013_64\include\qtcore\qmath.h(148) : 参见“M_LN2”的前一个定义
+D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(1297): warning C4005: “M_LN10”: 宏重定义 (ThreadClass\cloudthread.cpp)
+          c:\qt\qt5.5.1\5.5\msvc2013_64\include\qtcore\qmath.h(152) : 参见“M_LN10”的前一个定义
+D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(1298): warning C4005: “M_PI”: 宏重定义 (ThreadClass\cloudthread.cpp)
+          c:\qt\qt5.5.1\5.5\msvc2013_64\include\qtcore\qmath.h(156) : 参见“M_PI”的前一个定义
+D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(1299): warning C4005: “M_PI_2”: 宏重定义 (ThreadClass\cloudthread.cpp)
+          c:\qt\qt5.5.1\5.5\msvc2013_64\include\qtcore\qmath.h(160) : 参见“M_PI_2”的前一个定义
+D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(1300): warning C4005: “M_PI_4”: 宏重定义 (ThreadClass\cloudthread.cpp)
+          c:\qt\qt5.5.1\5.5\msvc2013_64\include\qtcore\qmath.h(164) : 参见“M_PI_4”的前一个定义
+D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(1301): warning C4005: “M_1_PI”: 宏重定义 (ThreadClass\cloudthread.cpp)
+          c:\qt\qt5.5.1\5.5\msvc2013_64\include\qtcore\qmath.h(168) : 参见“M_1_PI”的前一个定义
+D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(1302): warning C4005: “M_2_PI”: 宏重定义 (ThreadClass\cloudthread.cpp)
+          c:\qt\qt5.5.1\5.5\msvc2013_64\include\qtcore\qmath.h(172) : 参见“M_2_PI”的前一个定义
+D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(1303): warning C4005: “M_2_SQRTPI”: 宏重定义 (ThreadClass\cloudthread.cpp)
+          c:\qt\qt5.5.1\5.5\msvc2013_64\include\qtcore\qmath.h(176) : 参见“M_2_SQRTPI”的前一个定义
+D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(1304): warning C4005: “M_SQRT2”: 宏重定义 (ThreadClass\cloudthread.cpp)
+          c:\qt\qt5.5.1\5.5\msvc2013_64\include\qtcore\qmath.h(180) : 参见“M_SQRT2”的前一个定义
+D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h(1305): warning C4005: “M_SQRT1_2”: 宏重定义 (ThreadClass\cloudthread.cpp)
+          c:\qt\qt5.5.1\5.5\msvc2013_64\include\qtcore\qmath.h(184) : 参见“M_SQRT1_2”的前一个定义
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/pcl_visualizer.h(1621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (SurfaceGrowing\label.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/interactor_style.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (SurfaceGrowing\surfacegrowing.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/pcl_visualizer.h(1621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (SurfaceGrowing\surfacegrowing.cpp)
+  octree_viewer.cpp
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/interactor_style.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (ThreadClass\cloudthread.cpp)
+  transformate.cpp
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/pcl_visualizer.h(1621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (ThreadClass\cloudthread.cpp)
+  voxel.cpp
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/interactor_style.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (tools\octree_viewer.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/pcl_visualizer.h(1621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (tools\octree_viewer.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/interactor_style.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (Voxel\voxel.cpp)
+E:\CPlusPlusLib\PCL1.8.0\include\pcl-1.8\pcl/visualization/pcl_visualizer.h(1621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (Voxel\voxel.cpp)
+e:\visualstudio2013project\pointcloudui2.0\pointcloudui2.0\tools\octree_viewer.cpp(401): warning C4715: “main22”: 不是所有的控件路径都返回值
+  qrc_images.cpp
+x64\Release\label.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+x64\Release\label.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+x64\Release\label.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+x64\Release\voxel.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+  PointCloudUI2.0.vcxproj -> E:\VisualStudio2013Project\PointCloudUI2.0\x64\Release\PointCloudUI2.0.exe

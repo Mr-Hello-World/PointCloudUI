@@ -1,0 +1,732 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{7ce02bc3-fec0-4734-83e0-19c6ab9f7d78}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{c9cc8e53-b3b4-4a0a-99f2-0e489703d79c}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="CloudData">
+      <UniqueIdentifier>{04d60c69-eb73-4814-a0e9-cb4dbb6c67c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contour">
+      <UniqueIdentifier>{5866bcd4-89cc-466e-bd5c-76ca857b37d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KDTree">
+      <UniqueIdentifier>{48a80e87-7cc5-4dab-949d-6065f137fe81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PCA">
+      <UniqueIdentifier>{6b11c09c-f008-4c74-851a-91075b245759}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PCLing">
+      <UniqueIdentifier>{799d8e86-8419-4e20-bee9-cec6cfad2e8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlaneClass">
+      <UniqueIdentifier>{8062a72d-b994-4366-8059-ad42e2219578}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PointClass">
+      <UniqueIdentifier>{6fb9ed42-0985-4ca9-92f7-dfbb711ba735}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PointCloudSimple">
+      <UniqueIdentifier>{67d9370e-e2c7-4981-a403-a149b285c7c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RansacPlane">
+      <UniqueIdentifier>{adb273df-2ab8-469c-bb7d-45757c5ff5f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SurfaceGrow">
+      <UniqueIdentifier>{6478c5c9-da2f-429d-a958-fb1d0087a8e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThreadClass">
+      <UniqueIdentifier>{e2bd1508-5314-4079-874f-4d1df0c3dce3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Voxel">
+      <UniqueIdentifier>{ab2b70ee-3fcb-4ebf-97a6-50f6492c65e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PCLing\Filtering">
+      <UniqueIdentifier>{ca592ade-ddec-4565-a665-4f03bd51752e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PCLing\ClusterExract">
+      <UniqueIdentifier>{43016fc8-dfcd-4835-bdd1-e4911cdb0d25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libLAS180">
+      <UniqueIdentifier>{d1174500-6f85-4023-8330-96bdd322fad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Transformate">
+      <UniqueIdentifier>{d04e8ed1-e4fa-4373-844b-db9c271521d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Luozf">
+      <UniqueIdentifier>{8cd45605-bdc4-4c44-82ac-c8b3f490e5ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PCLing\Algorithm">
+      <UniqueIdentifier>{7f208cff-de94-4bec-bea9-b93ff9e07aa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools">
+      <UniqueIdentifier>{c7da4863-2bd9-45be-aff7-629ea3b8ca03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PolesExtract">
+      <UniqueIdentifier>{3beecbe8-dc69-405c-abdc-405c0d97f108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="groundFilter">
+      <UniqueIdentifier>{7c3616b3-0749-45bc-b3d7-f438ccc20147}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="roadshoulder">
+      <UniqueIdentifier>{90f6ca97-eb26-42f5-b0db-c76312dfc711}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExtractBuilding">
+      <UniqueIdentifier>{d9823036-f34b-43da-b9a3-6a8405c737bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CASS">
+      <UniqueIdentifier>{8e0ba740-05bf-44a7-9f41-cf60c5539601}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExtractBuildingFootprint">
+      <UniqueIdentifier>{06b1cba5-4106-4578-af7e-69fedfbe1e64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoordinatePingYi">
+      <UniqueIdentifier>{1ae0df87-9583-491e-a95f-5b9385ee20db}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="eigenmatrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_mainwindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_mainwindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_images.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CloudData\cloudmanage.cpp">
+      <Filter>CloudData</Filter>
+    </ClCompile>
+    <ClCompile Include="Contour\contour.cpp">
+      <Filter>Contour</Filter>
+    </ClCompile>
+    <ClCompile Include="KDTree\3dKDtree.cpp">
+      <Filter>KDTree</Filter>
+    </ClCompile>
+    <ClCompile Include="KDTree\kdtree.cpp">
+      <Filter>KDTree</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadClass\cloudthread.cpp">
+      <Filter>ThreadClass</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_cloudthread.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_cloudthread.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="SurfaceGrowing\label.cpp">
+      <Filter>SurfaceGrow</Filter>
+    </ClCompile>
+    <ClCompile Include="SurfaceGrowing\surfacegrowing.cpp">
+      <Filter>SurfaceGrow</Filter>
+    </ClCompile>
+    <ClCompile Include="RansacClass\ransacplane.cpp">
+      <Filter>RansacPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="PointCloudSimple\simple.cpp">
+      <Filter>PointCloudSimple</Filter>
+    </ClCompile>
+    <ClCompile Include="PointClass\point.cpp">
+      <Filter>PointClass</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaneClass\plane.cpp">
+      <Filter>PlaneClass</Filter>
+    </ClCompile>
+    <ClCompile Include="PCL\Filtering\pclfilter.cpp">
+      <Filter>PCLing\Filtering</Filter>
+    </ClCompile>
+    <ClCompile Include="PCA\pca.cpp">
+      <Filter>PCA</Filter>
+    </ClCompile>
+    <ClCompile Include="clusterextract.cpp">
+      <Filter>PCLing\ClusterExract</Filter>
+    </ClCompile>
+    <ClCompile Include="libLAS180\libLAS180.cpp">
+      <Filter>libLAS180</Filter>
+    </ClCompile>
+    <ClCompile Include="Transformate\transformate.cpp">
+      <Filter>Transformate</Filter>
+    </ClCompile>
+    <ClCompile Include="PCL\Algorithm\algorithm.cpp">
+      <Filter>PCLing\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="Luozf\kdtreelzf.cpp">
+      <Filter>Luozf</Filter>
+    </ClCompile>
+    <ClCompile Include="Luozf\Matrix.cpp">
+      <Filter>Luozf</Filter>
+    </ClCompile>
+    <ClCompile Include="Luozf\Model.cpp">
+      <Filter>Luozf</Filter>
+    </ClCompile>
+    <ClCompile Include="Luozf\PlaneFitting.cpp">
+      <Filter>Luozf</Filter>
+    </ClCompile>
+    <ClCompile Include="Luozf\Planelzf.cpp">
+      <Filter>Luozf</Filter>
+    </ClCompile>
+    <ClCompile Include="Luozf\PointIO.cpp">
+      <Filter>Luozf</Filter>
+    </ClCompile>
+    <ClCompile Include="Luozf\Pointlzf.cpp">
+      <Filter>Luozf</Filter>
+    </ClCompile>
+    <ClCompile Include="Luozf\Segmentation.cpp">
+      <Filter>Luozf</Filter>
+    </ClCompile>
+    <ClCompile Include="PCL\Clusters\clusters.cpp">
+      <Filter>PCLing\ClusterExract</Filter>
+    </ClCompile>
+    <ClCompile Include="tools\octree_viewer.cpp">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="PolesExtract\label.cpp">
+      <Filter>PolesExtract</Filter>
+    </ClCompile>
+    <ClCompile Include="PolesExtract\polesextract.cpp">
+      <Filter>PolesExtract</Filter>
+    </ClCompile>
+    <ClCompile Include="PolesExtract\voxel.cpp">
+      <Filter>PolesExtract</Filter>
+    </ClCompile>
+    <ClCompile Include="PolesExtract\main_poles.cpp">
+      <Filter>PolesExtract</Filter>
+    </ClCompile>
+    <ClCompile Include="groundFilter\groundFilter.cpp">
+      <Filter>groundFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="groundFilter\label.cpp">
+      <Filter>groundFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="groundFilter\main_filter.cpp">
+      <Filter>groundFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="roadshoulder\label.cpp">
+      <Filter>roadshoulder</Filter>
+    </ClCompile>
+    <ClCompile Include="roadshoulder\line.cpp">
+      <Filter>roadshoulder</Filter>
+    </ClCompile>
+    <ClCompile Include="roadshoulder\roadshoulder.cpp">
+      <Filter>roadshoulder</Filter>
+    </ClCompile>
+    <ClCompile Include="roadshoulder\main_shoulderroad.cpp">
+      <Filter>roadshoulder</Filter>
+    </ClCompile>
+    <ClCompile Include="Voxel\voxel.cpp">
+      <Filter>Voxel</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtractBuilding\buildfootprint.cpp">
+      <Filter>ExtractBuilding</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtractBuilding\main_extactbuilding.cpp">
+      <Filter>ExtractBuilding</Filter>
+    </ClCompile>
+    <ClCompile Include="CASS\cass.cpp">
+      <Filter>CASS</Filter>
+    </ClCompile>
+    <ClCompile Include="CASS\dl_dxf.cpp">
+      <Filter>CASS</Filter>
+    </ClCompile>
+    <ClCompile Include="CASS\dl_writer_ascii.cpp">
+      <Filter>CASS</Filter>
+    </ClCompile>
+    <ClCompile Include="CASS\test_creationclass.cpp">
+      <Filter>CASS</Filter>
+    </ClCompile>
+    <ClCompile Include="CASS\main_cass.cpp">
+      <Filter>CASS</Filter>
+    </ClCompile>
+    <ClCompile Include="CoordinatePingYi\coordinate.cpp">
+      <Filter>CoordinatePingYi</Filter>
+    </ClCompile>
+    <ClCompile Include="CoordinatePingYi\main_coordinatePY.cpp">
+      <Filter>CoordinatePingYi</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="colordialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="contourdialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="leafsizedialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="mainwindow.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="mainwindow.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="openasciidialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="passthroughfilterdialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="pcadialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="pointsizedialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="radiusfilterdialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ransacdialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="saveasciidialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="simpledialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="statisticalfilterdialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="surfacegrowingdialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="images.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ThreadClass\cloudthread.h">
+      <Filter>ThreadClass</Filter>
+    </CustomBuild>
+    <CustomBuild Include="euclideanclusterdialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="formatetransform.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="regiongrowdialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="radiussearchdialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="polesextract.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="polesstatisticclassifydialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="afterprocess2.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="extractshoulder.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="extractbuild.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="choiceout.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="translatexyzdialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_colordialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_contourdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eigenmatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_leafsizedialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_mainwindow.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_openasciidialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_passthroughfilterdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_pcadialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_pointsizedialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_radiusfilterdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_ransacdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_saveasciidialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_simpledialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_statisticalfilterdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_surfacegrowingdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CloudData\cloudmanage.h">
+      <Filter>CloudData</Filter>
+    </ClInclude>
+    <ClInclude Include="Contour\contour.h">
+      <Filter>Contour</Filter>
+    </ClInclude>
+    <ClInclude Include="KDTree\3dKDtree.h">
+      <Filter>KDTree</Filter>
+    </ClInclude>
+    <ClInclude Include="KDTree\kdtree.h">
+      <Filter>KDTree</Filter>
+    </ClInclude>
+    <ClInclude Include="SurfaceGrowing\label.h">
+      <Filter>SurfaceGrow</Filter>
+    </ClInclude>
+    <ClInclude Include="SurfaceGrowing\label_h.h">
+      <Filter>SurfaceGrow</Filter>
+    </ClInclude>
+    <ClInclude Include="SurfaceGrowing\surfacegrowing.h">
+      <Filter>SurfaceGrow</Filter>
+    </ClInclude>
+    <ClInclude Include="RansacClass\ransacplane.h">
+      <Filter>RansacPlane</Filter>
+    </ClInclude>
+    <ClInclude Include="PointCloudSimple\simple.h">
+      <Filter>PointCloudSimple</Filter>
+    </ClInclude>
+    <ClInclude Include="PointClass\point.h">
+      <Filter>PointClass</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaneClass\plane.h">
+      <Filter>PlaneClass</Filter>
+    </ClInclude>
+    <ClInclude Include="PCL\Filtering\pclfilter.h">
+      <Filter>PCLing\Filtering</Filter>
+    </ClInclude>
+    <ClInclude Include="PCA\pca.h">
+      <Filter>PCA</Filter>
+    </ClInclude>
+    <ClInclude Include="clusterextract.h">
+      <Filter>PCLing\ClusterExract</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_euclideanclusterdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libLAS180\libLAS180.h">
+      <Filter>libLAS180</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_formatetransform.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Transformate\transformate.h">
+      <Filter>Transformate</Filter>
+    </ClInclude>
+    <ClInclude Include="PCL\Algorithm\algorithm.h">
+      <Filter>PCLing\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="Luozf\kdtreelzf.h">
+      <Filter>Luozf</Filter>
+    </ClInclude>
+    <ClInclude Include="Luozf\Matrix.h">
+      <Filter>Luozf</Filter>
+    </ClInclude>
+    <ClInclude Include="Luozf\Model.h">
+      <Filter>Luozf</Filter>
+    </ClInclude>
+    <ClInclude Include="Luozf\PlaneFitting.h">
+      <Filter>Luozf</Filter>
+    </ClInclude>
+    <ClInclude Include="Luozf\Planelzf.h">
+      <Filter>Luozf</Filter>
+    </ClInclude>
+    <ClInclude Include="Luozf\PointIO.h">
+      <Filter>Luozf</Filter>
+    </ClInclude>
+    <ClInclude Include="Luozf\Pointlzf.h">
+      <Filter>Luozf</Filter>
+    </ClInclude>
+    <ClInclude Include="Luozf\Segmentation.h">
+      <Filter>Luozf</Filter>
+    </ClInclude>
+    <ClInclude Include="PCL\Clusters\clusters.h">
+      <Filter>PCLing\ClusterExract</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_regiongrowdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_radiussearchdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tools\boost.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="PolesExtract\label.h">
+      <Filter>PolesExtract</Filter>
+    </ClInclude>
+    <ClInclude Include="PolesExtract\polesextract.h">
+      <Filter>PolesExtract</Filter>
+    </ClInclude>
+    <ClInclude Include="PolesExtract\voxel.h">
+      <Filter>PolesExtract</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_polesextract.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_polesstatisticclassifydialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="groundFilter\groundFilter.h">
+      <Filter>groundFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="groundFilter\label.h">
+      <Filter>groundFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="roadshoulder\label.h">
+      <Filter>roadshoulder</Filter>
+    </ClInclude>
+    <ClInclude Include="roadshoulder\line.h">
+      <Filter>roadshoulder</Filter>
+    </ClInclude>
+    <ClInclude Include="roadshoulder\roadshoulder.h">
+      <Filter>roadshoulder</Filter>
+    </ClInclude>
+    <ClInclude Include="Voxel\voxel.h">
+      <Filter>Voxel</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_afterprocess2.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_extractshoulder.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtractBuilding\buildfootprint.h">
+      <Filter>ExtractBuilding</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_extractbuild.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_choiceout.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CASS\cass.h">
+      <Filter>CASS</Filter>
+    </ClInclude>
+    <ClInclude Include="CASS\dl_attributes.h">
+      <Filter>CASS</Filter>
+    </ClInclude>
+    <ClInclude Include="CASS\dl_codes.h">
+      <Filter>CASS</Filter>
+    </ClInclude>
+    <ClInclude Include="CASS\dl_creationadapter.h">
+      <Filter>CASS</Filter>
+    </ClInclude>
+    <ClInclude Include="CASS\dl_creationinterface.h">
+      <Filter>CASS</Filter>
+    </ClInclude>
+    <ClInclude Include="CASS\dl_dxf.h">
+      <Filter>CASS</Filter>
+    </ClInclude>
+    <ClInclude Include="CASS\dl_entities.h">
+      <Filter>CASS</Filter>
+    </ClInclude>
+    <ClInclude Include="CASS\dl_exception.h">
+      <Filter>CASS</Filter>
+    </ClInclude>
+    <ClInclude Include="CASS\dl_extrusion.h">
+      <Filter>CASS</Filter>
+    </ClInclude>
+    <ClInclude Include="CASS\dl_writer.h">
+      <Filter>CASS</Filter>
+    </ClInclude>
+    <ClInclude Include="CASS\dl_writer_ascii.h">
+      <Filter>CASS</Filter>
+    </ClInclude>
+    <ClInclude Include="CASS\test_creationclass.h">
+      <Filter>CASS</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_translatexyzdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoordinatePingYi\coordinate.h">
+      <Filter>CoordinatePingYi</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\cloudmulticolor.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\cloudproject.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\clouduniquecolor.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\folder.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\ccViewXneg.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\ccViewXpos.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\ccViewYneg.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\ccViewYpos.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\ccViewZneg.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\ccViewZpos.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\txt.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\browser.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\copy.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\cube.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\delete.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\document.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\documents.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\exit.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\find.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\folder_empty.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\folder_red.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\gnome_text_x_generic.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\gnome_text_x_generic.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\go.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\help.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\icon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\new.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\open.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\paste.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\pencil.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\radius.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\recyclebin_empty.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\save.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\save_all.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\saveas.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\scissors.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\splash.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\statistics.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\undo.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\version_cue.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\zoom_in.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\zoom_out.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
